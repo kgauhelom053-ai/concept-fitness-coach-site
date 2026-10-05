@@ -201,8 +201,10 @@ em{font-family:var(--serif);font-style:italic;font-weight:400}
 @media(max-width:960px){
   .hero{grid-template-columns:1fr;padding:120px 0 60px;min-height:auto}
   .hero-inner{padding-left:4vw;max-width:none;width:min(1180px,92vw);margin:0 auto}
-  .hero-visual{padding:20px 4vw 0;order:-1}
-  .phone-card{width:min(320px,90%)}
+  .hero-visual{padding:28px 4vw 0;order:0}
+  .phone-card{width:min(300px,88%)}
+  .hero-cta{margin-bottom:24px}
+  .hero-proof{padding-top:20px}
   .price-grid,.steps,.quotes{grid-template-columns:1fr}
   .price-card.featured{transform:none}
   .about-grid,.faq-grid,.book-grid{grid-template-columns:1fr;gap:36px}
